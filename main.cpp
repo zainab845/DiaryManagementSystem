@@ -616,27 +616,6 @@ public:
 /////////////////// End of classes ///////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////
 
-
-
-
-
-/*
-void displayDiaries(diaryUser* diaries, int dCount){
-    for (int i=0; i < dCount; i++)
-        {
-            cout << "User: " << diaries[i].getUsername() << "," << diaries[i].getPassword() << endl;
-            int count = diaries[i].getCount();
-            //cout << "Count of diary of " << diaries[i].getUsername() << ": " << count << endl;
-            for (int j = 0; j < count; j++) {
-                //cout << diaries[i].getTitle(j);
-                cout << diaries[i].getID(j) << ", " << diaries[i].getDate(j) << ", " <<
-                diaries[i].getTitle(j) << ", " << diaries[i].getContent(j) << endl;
-            }
-        }
-}
-*/
-
-
 int displayMainMenu(){
     int option;
     bool invalid = true;
